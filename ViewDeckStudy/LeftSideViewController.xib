@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftSideViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottomPict" translatesAutoresizingMaskIntoConstraints="NO" id="xXn-5r-6hF">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="125" id="8gh-xx-nF8"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwp-pe-t0u">
+                    <rect key="frame" x="30" y="175" width="315" height="35"/>
+                    <color key="backgroundColor" red="0.0" green="0.49019607843137253" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="od4-7f-N60"/>
+                    </constraints>
+                    <state key="normal" title="下一页">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goNextView:" destination="-1" eventType="touchUpInside" id="PY0-6d-3a3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xXn-5r-6hF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ACz-Rv-BfQ"/>
+                <constraint firstAttribute="trailing" secondItem="xXn-5r-6hF" secondAttribute="trailing" id="DMs-GS-2oI"/>
+                <constraint firstAttribute="trailing" secondItem="Rwp-pe-t0u" secondAttribute="trailing" constant="30" id="LMm-ma-Ap3"/>
+                <constraint firstItem="Rwp-pe-t0u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="U0A-9W-9GH"/>
+                <constraint firstItem="Rwp-pe-t0u" firstAttribute="top" secondItem="xXn-5r-6hF" secondAttribute="bottom" constant="50" id="g3r-jf-BSV"/>
+                <constraint firstItem="xXn-5r-6hF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yTb-bo-K8e"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bottomPict" width="1242" height="405"/>
+    </resources>
+</document>
