@@ -7,374 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07279F9A69F47AB4AF531AF0E47E7D81 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0DB97FEEB96F729C21E9F0E549EF3D /* UIImage+REFrostedViewController.m */; };
-		1D77B238E9E767CFF9D99634D1DE3562 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B81846DA6DD517E61CCDA8E9BD489F2 /* REFrostedViewController.m */; };
-		1F2DF53C5ACAA29171A86E5D84D38698 /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49845369D35B4091C6DD2ABFFE8AC0E6 /* REFrostedViewController-dummy.m */; };
-		2BF9FC82744CC2ED63EAAAFD8327DF25 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4ED0BF80F9871D195AACCEFDF9F11E /* UIView+REFrostedViewController.m */; };
-		3D584E72EDE6431FBF413A198E93D00B /* UIViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0A922C1F51F3584ACD6BA7F63A73B0 /* UIViewController+Private.m */; };
-		3D58740D8D1E1B35EAF55961C50E9AD7 /* IIViewDeckTransition.mm in Sources */ = {isa = PBXBuildFile; fileRef = 452903ACA7D216A79612D88543857845 /* IIViewDeckTransition.mm */; };
-		44C71E04CE7264123EDAB9EA13CE754F /* IIViewDeckTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFC816FFB09B00A0A6A5AE62F8E3480 /* IIViewDeckTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BF0AD1167E6102E1580DA3247AD4B9B /* IIViewDeckDefaultTransitionAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = AD1A5F8C6A558EF2469402FFBEA75D30 /* IIViewDeckDefaultTransitionAnimator.mm */; };
-		51D52E14D581DCA33FED32869647D68F /* IIViewDeckController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A63738737621CFF385C8AD3E8D424B1 /* IIViewDeckController.mm */; };
-		52C48A6E7992705A79519B10332A3B5B /* Pods-REFrostedStudy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF79C154396CD666B4BF1CFC93A3684 /* Pods-REFrostedStudy-dummy.m */; };
-		5F56465E9A0060A88E0D1B6C97509FD5 /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C4F8F97188388F357F0D6D664726046 /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63E5BBA2EEC196A9E1A926FF55313437 /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF88DF802544E853E2CD46C4338F507 /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6866ED73B1FFF44DB90CE12A8F5B3A5F /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEF5BE3BD2562ED0E91348663BF5D46 /* RECommonFunctions.m */; };
-		6BEC6E273A4E6F7E3ADF314DFD633DDF /* IIViewDeckController.h in Headers */ = {isa = PBXBuildFile; fileRef = A754ED568F881923D103924C512359C1 /* IIViewDeckController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70425171CCCDD60FED6DA248B1A89D8E /* IIDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C756BB72DA3B5A4DC3DFF8A28B875B /* IIDelegateProxy.m */; };
-		7317FC8F34DE5780A423454560BE2E94 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D5A13F660E33CFB8E081E022F51A17 /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EAC717BB0A43DE7E2CB2E4CEA3C8855 /* UIViewController+IIViewDeckAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 452EF3FF0E145A57AA754F382C393741 /* UIViewController+IIViewDeckAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		863D3AB41772552D0E9E005C3B08C8D8 /* ViewDeck.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEBD2E682A7E588797DEB9FC91168DD /* ViewDeck.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C033003AB6E80358AA8752D1FCCB57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */; };
-		8E8C2A6374BCA2580ED7B7D21D64498B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21288ACBD59D3A0CE1911176679750E6 /* UIKit.framework */; };
-		A71ADF2969F66AC1585533CD344CD2C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */; };
-		A996DEE5A58B9BA18B7E6BA274DF1C3E /* IIViewDeckController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D73A14FAFF8BF3C9EE5EAB7159AB2EB2 /* IIViewDeckController+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		ABB07666BA52363074E72A7C5ACF10C1 /* ViewDeck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB261B1388FD11CCEB36991DA5A4C386 /* ViewDeck-dummy.m */; };
-		B02B76C921BBE844FEE49C7D7AA86245 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FEDED657AE0BCEBEF89CE6E6777E15 /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B46882F8A4067E80AC9A2A921AF06497 /* UIViewController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E04C5C608CE5B4A96AAC116920EDE05 /* UIViewController+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B7695120EDF045EAC878A94A5BA71815 /* IIViewDeckLayoutSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4D0832645E4DDA23EDBA7F78654D8A /* IIViewDeckLayoutSupport.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B928AF771A11603231D6B5AAC8CA2293 /* UIViewController+IIViewDeckAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1EE1C7E6549C82D5E0A0414E235E7A /* UIViewController+IIViewDeckAdditions.m */; };
-		BFC49B2C22DF20B393BADC4869AD34E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59C6D6D89BD1715C8D2D30D23D10859 /* QuartzCore.framework */; };
-		C04055B021A904D17AF7D9BAF3EA42BC /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7CAFF786644FA7A438AA1932798689 /* UIViewController+REFrostedViewController.m */; };
-		C4AF27909232D7C03365A56256D38CEF /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F4160D970404A5497F94119E1EE29B /* Accelerate.framework */; };
-		C753FBDAA179312E63164415C0BBB4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */; };
-		CE703312B93CFD46FC961FA4E98C13EC /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269B63DB5322900662E4010AE8E77B81 /* REFrostedContainerViewController.m */; };
-		CEB12DCCC4F0711A9C53FB958A543F63 /* IIEnvironment+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E1BD1E7C5DE37D338AAFB6C28E81DF /* IIEnvironment+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D012F8D379E93DB7EA8EFDB67100ABA0 /* IIViewDeckDefaultTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8171C9DC79AD3F80527FE064FC394C28 /* IIViewDeckDefaultTransitionAnimator.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D262194C78500C6A181B1D1AAD0E20D7 /* IIViewDeckLayoutSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6658F39EAB10C522F5A585331C12C8 /* IIViewDeckLayoutSupport.m */; };
-		D7F8D025722D3BE36660B69C54C98D67 /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A3E300BD0091B5D04A14814F786621 /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF755A9FAB6033760CBB03DF80AC629 /* IIEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = FD07EFD34C20296CF8CD96F7216F9A64 /* IIEnvironment.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6BF46A191056106270009CFE0210A8E /* IIViewDeckTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = C89B36C8B7082A680A4180C8CA11FA55 /* IIViewDeckTransition.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		EB4B1FE1B2DD9E9DBC98BF58FF1359CA /* Pods-ViewDeckStudy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 384B20C197296A7A056E84A2B241A506 /* Pods-ViewDeckStudy-dummy.m */; };
-		EF01B40A79DD824B098232D916A2C029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */; };
-		F0CCDC7275B66E465AFD37A862F0507A /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C31A5A0DBC5A167EE3E6B202FCA2AE /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4E507CA6B3AC0C91B514A335B1FC706 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59C6D6D89BD1715C8D2D30D23D10859 /* QuartzCore.framework */; };
-		FCE9E0BA0F34AA4C72E6DCAF858472B0 /* IIDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C16A7F3A5FBA25E2CE6DE726D8CB96 /* IIDelegateProxy.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0F79C5D95600FE70B3DD5F5194A9D276 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF6B6E343F0635AFDD2AE9096E80F04 /* RECommonFunctions.m */; };
+		1FC0BB5F4DA69E577B904190C0280992 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D1CFC165A6B8B96AF38070383F77C1 /* REFrostedContainerViewController.m */; };
+		2B02DA5FC2655BC01E79789EE86758A3 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48718592CE836F5294C9BBB72EB55B4E /* UIViewController+REFrostedViewController.m */; };
+		3E242ECEE0DDB5C5533AE775A94E4DF1 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9415289339658C7621D821875DDFA3D4 /* UIView+REFrostedViewController.m */; };
+		77B346084A7BC69C12EE2DE39BC245C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B83707081114083C19E4339AA1CBB5 /* QuartzCore.framework */; };
+		79C60E0D6D15AA698878D9A1E5B2ED51 /* UIImage+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C62707348E58E01B1F6CAAF5FA03EC8 /* UIImage+REFrostedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CCE4A42388E458C553DF003F24A9880 /* REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC7E357E99B0E24B461873DD4E07D20 /* REFrostedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FC8F67D368C750382B3BE8DC5BA53C3 /* UIView+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E729FB1A6A7159D70987D825039A72FB /* UIView+REFrostedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9838F8526BCB7A3B0697FCAE34A87672 /* REFrostedContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E107E72950BDE96BDB2F9AE6BC297A8 /* REFrostedContainerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99217C7C269B8358AFB1B033013F8FC1 /* UIViewController+REFrostedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D7C92941967DC198CEC4742B586271D /* UIViewController+REFrostedViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BC00BF2615C3F7F0D369303F3E0FAE2 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C53CF1CEED875724D17E53876D9A1434 /* UIImage+REFrostedViewController.m */; };
+		A5B3DC1023BAA91A38DC5D919CCF598B /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEA12C88EB70C2B1855AB53C109A090 /* REFrostedViewController.m */; };
+		A5FDC338E61C8D1BE500A8BD46F80397 /* RECommonFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = FFB0F86717AEE0279A1FDFCB69C44996 /* RECommonFunctions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC43E3CAB62442A1D0B638F443D83FF8 /* Pods-REFrostedStudy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F25B299F4C8F0E88339B740D8C4C39 /* Pods-REFrostedStudy-dummy.m */; };
+		C55490E758E1C4C5001E46C45258D693 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ADF974528C1B463AAD7BD978C87CA2 /* Accelerate.framework */; };
+		F4117D08D53ACC57E673290544F72F53 /* REFrostedViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9C78D6756BB393C149F0691BBEF146 /* REFrostedViewController-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		43C00210700B99BE72BD96744AA79393 /* PBXContainerItemProxy */ = {
+		AE2E23FAB0B6265318A630AB59B6A445 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16044F5DB12680B73B21E47EBCA4D2AC;
+			remoteGlobalIDString = 32608ED2D56E94FFC8E3A4CBB8B105CD;
 			remoteInfo = REFrostedViewController;
-		};
-		51C61A25F8C875A3D7692E26A63B7B07 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 183E441070E76A8CC26EE7E60E54E717;
-			remoteInfo = ViewDeck;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0327E7FFB952EADDA7DFF147C5C05C02 /* libPods-REFrostedStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-REFrostedStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0553D75C91B0FFE6B9FABBE8507697D7 /* Pods-ViewDeckStudy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewDeckStudy-frameworks.sh"; sourceTree = "<group>"; };
-		07F4160D970404A5497F94119E1EE29B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		0A63738737621CFF385C8AD3E8D424B1 /* IIViewDeckController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IIViewDeckController.mm; path = ViewDeck/IIViewDeckController.mm; sourceTree = "<group>"; };
-		0B13F63A29FBBF31B37F3E5D3FB6001F /* libViewDeck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libViewDeck.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4ED0BF80F9871D195AACCEFDF9F11E /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
-		12FEDED657AE0BCEBEF89CE6E6777E15 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
-		21288ACBD59D3A0CE1911176679750E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2691E32C49891F70D2159C72E7FCE211 /* REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
-		269B63DB5322900662E4010AE8E77B81 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
-		28996DFAD52A1F445D0F54D08EF11506 /* Pods-ViewDeckStudy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViewDeckStudy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B81846DA6DD517E61CCDA8E9BD489F2 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
-		2BF88DF802544E853E2CD46C4338F507 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
-		2DFC816FFB09B00A0A6A5AE62F8E3480 /* IIViewDeckTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIViewDeckTransitioning.h; path = ViewDeck/IIViewDeckTransitioning.h; sourceTree = "<group>"; };
-		2E04C5C608CE5B4A96AAC116920EDE05 /* UIViewController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Private.h"; path = "ViewDeck/Private/UIViewController+Private.h"; sourceTree = "<group>"; };
-		2E0DB97FEEB96F729C21E9F0E549EF3D /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
-		30E1BD1E7C5DE37D338AAFB6C28E81DF /* IIEnvironment+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IIEnvironment+Private.h"; path = "ViewDeck/Private/IIEnvironment+Private.h"; sourceTree = "<group>"; };
-		34D5A13F660E33CFB8E081E022F51A17 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
-		384B20C197296A7A056E84A2B241A506 /* Pods-ViewDeckStudy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViewDeckStudy-dummy.m"; sourceTree = "<group>"; };
-		38BB0EB985337FAB1B957533CF5390F0 /* Pods-REFrostedStudy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedStudy-frameworks.sh"; sourceTree = "<group>"; };
-		3C4F8F97188388F357F0D6D664726046 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
-		409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		452903ACA7D216A79612D88543857845 /* IIViewDeckTransition.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IIViewDeckTransition.mm; path = ViewDeck/Private/IIViewDeckTransition.mm; sourceTree = "<group>"; };
-		452EF3FF0E145A57AA754F382C393741 /* UIViewController+IIViewDeckAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IIViewDeckAdditions.h"; path = "ViewDeck/UIViewController+IIViewDeckAdditions.h"; sourceTree = "<group>"; };
-		49845369D35B4091C6DD2ABFFE8AC0E6 /* REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
-		5FE8E0461FF8103BAAD05289C3E62EFB /* libPods-ViewDeckStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViewDeckStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64C31A5A0DBC5A167EE3E6B202FCA2AE /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
-		6692A39A9DB4768505774172FA96E615 /* Pods-REFrostedStudy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedStudy-resources.sh"; sourceTree = "<group>"; };
-		687C10EAE0AF724955313AEF5A64E874 /* ViewDeck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewDeck-prefix.pch"; sourceTree = "<group>"; };
-		767E03D9BD026C16FBAFB1B57D5959B3 /* Pods-REFrostedStudy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REFrostedStudy-acknowledgements.plist"; sourceTree = "<group>"; };
-		8171C9DC79AD3F80527FE064FC394C28 /* IIViewDeckDefaultTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIViewDeckDefaultTransitionAnimator.h; path = ViewDeck/Private/IIViewDeckDefaultTransitionAnimator.h; sourceTree = "<group>"; };
-		91062AABFBF22C44B664AB252872A962 /* Pods-REFrostedStudy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REFrostedStudy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97087CC36DF2C52254BDBAC002DFAE61 /* Pods-REFrostedStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedStudy.debug.xcconfig"; sourceTree = "<group>"; };
-		9BF79C154396CD666B4BF1CFC93A3684 /* Pods-REFrostedStudy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedStudy-dummy.m"; sourceTree = "<group>"; };
-		A1F51797970827B7E018D7177551272D /* Pods-ViewDeckStudy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ViewDeckStudy-resources.sh"; sourceTree = "<group>"; };
-		A754ED568F881923D103924C512359C1 /* IIViewDeckController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIViewDeckController.h; path = ViewDeck/IIViewDeckController.h; sourceTree = "<group>"; };
-		AAEF5BE3BD2562ED0E91348663BF5D46 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
-		AB83CD3FBDD126045BD1E5218F38A569 /* REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFrostedViewController.xcconfig; sourceTree = "<group>"; };
-		ACEBD2E682A7E588797DEB9FC91168DD /* ViewDeck.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ViewDeck.h; path = ViewDeck/ViewDeck.h; sourceTree = "<group>"; };
-		AD1A5F8C6A558EF2469402FFBEA75D30 /* IIViewDeckDefaultTransitionAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = IIViewDeckDefaultTransitionAnimator.mm; path = ViewDeck/Private/IIViewDeckDefaultTransitionAnimator.mm; sourceTree = "<group>"; };
-		B0C16A7F3A5FBA25E2CE6DE726D8CB96 /* IIDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIDelegateProxy.h; path = ViewDeck/Private/IIDelegateProxy.h; sourceTree = "<group>"; };
-		B3C756BB72DA3B5A4DC3DFF8A28B875B /* IIDelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IIDelegateProxy.m; path = ViewDeck/Private/IIDelegateProxy.m; sourceTree = "<group>"; };
-		B5DCC2718A5BA654697FCEC26A9FEC54 /* ViewDeck.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewDeck.xcconfig; sourceTree = "<group>"; };
-		B7C872A40B4151344B9F0606D31208B0 /* libREFrostedViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libREFrostedViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B878E993EDBB1516AA543A9645E3A77C /* Pods-REFrostedStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedStudy.release.xcconfig"; sourceTree = "<group>"; };
-		C59C6D6D89BD1715C8D2D30D23D10859 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		C89B36C8B7082A680A4180C8CA11FA55 /* IIViewDeckTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIViewDeckTransition.h; path = ViewDeck/Private/IIViewDeckTransition.h; sourceTree = "<group>"; };
-		C94BCC32A83E119315A8A15F11704C0E /* Pods-ViewDeckStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewDeckStudy.debug.xcconfig"; sourceTree = "<group>"; };
-		CB261B1388FD11CCEB36991DA5A4C386 /* ViewDeck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewDeck-dummy.m"; sourceTree = "<group>"; };
-		CE6658F39EAB10C522F5A585331C12C8 /* IIViewDeckLayoutSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IIViewDeckLayoutSupport.m; path = ViewDeck/Private/IIViewDeckLayoutSupport.m; sourceTree = "<group>"; };
-		D6A3E300BD0091B5D04A14814F786621 /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
-		D73A14FAFF8BF3C9EE5EAB7159AB2EB2 /* IIViewDeckController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IIViewDeckController+Private.h"; path = "ViewDeck/IIViewDeckController+Private.h"; sourceTree = "<group>"; };
-		DA7CAFF786644FA7A438AA1932798689 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
-		E90468CC505AB3BFAF41A0CE4AD8D031 /* Pods-ViewDeckStudy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewDeckStudy-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC1EE1C7E6549C82D5E0A0414E235E7A /* UIViewController+IIViewDeckAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IIViewDeckAdditions.m"; path = "ViewDeck/UIViewController+IIViewDeckAdditions.m"; sourceTree = "<group>"; };
-		EF65C3DF7AE0F37C5A82D719DB676552 /* Pods-ViewDeckStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewDeckStudy.release.xcconfig"; sourceTree = "<group>"; };
-		FA4D0832645E4DDA23EDBA7F78654D8A /* IIViewDeckLayoutSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIViewDeckLayoutSupport.h; path = ViewDeck/Private/IIViewDeckLayoutSupport.h; sourceTree = "<group>"; };
-		FD07EFD34C20296CF8CD96F7216F9A64 /* IIEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IIEnvironment.h; path = ViewDeck/IIEnvironment.h; sourceTree = "<group>"; };
-		FE0A922C1F51F3584ACD6BA7F63A73B0 /* UIViewController+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Private.m"; path = "ViewDeck/Private/UIViewController+Private.m"; sourceTree = "<group>"; };
+		0097360CCC6B0A03B59BE788415DFFC4 /* REFrostedViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "REFrostedViewController-prefix.pch"; sourceTree = "<group>"; };
+		1D7C92941967DC198CEC4742B586271D /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+REFrostedViewController.h"; path = "REFrostedViewController/UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		23B89788F1394FA55E2A4F4B81F582F2 /* Pods-REFrostedStudy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-REFrostedStudy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DF6B6E343F0635AFDD2AE9096E80F04 /* RECommonFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RECommonFunctions.m; path = REFrostedViewController/RECommonFunctions.m; sourceTree = "<group>"; };
+		33D1CFC165A6B8B96AF38070383F77C1 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedContainerViewController.m; path = REFrostedViewController/REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		3E107E72950BDE96BDB2F9AE6BC297A8 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedContainerViewController.h; path = REFrostedViewController/REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		3FEA12C88EB70C2B1855AB53C109A090 /* REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = REFrostedViewController.m; path = REFrostedViewController/REFrostedViewController.m; sourceTree = "<group>"; };
+		46A63AB45CBF925E514DA07AA610FA36 /* Pods-REFrostedStudy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedStudy-frameworks.sh"; sourceTree = "<group>"; };
+		48718592CE836F5294C9BBB72EB55B4E /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+REFrostedViewController.m"; path = "REFrostedViewController/UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		5E1A19CFB3EB21DD51A173A14115E8D6 /* libREFrostedViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libREFrostedViewController.a; path = libREFrostedViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC7E357E99B0E24B461873DD4E07D20 /* REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = REFrostedViewController.h; path = REFrostedViewController/REFrostedViewController.h; sourceTree = "<group>"; };
+		6A9C78D6756BB393C149F0691BBEF146 /* REFrostedViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "REFrostedViewController-dummy.m"; sourceTree = "<group>"; };
+		6C62707348E58E01B1F6CAAF5FA03EC8 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+REFrostedViewController.h"; path = "REFrostedViewController/UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		86ADF974528C1B463AAD7BD978C87CA2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		90B83707081114083C19E4339AA1CBB5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9199EE2A7F177CDC3F317E9996B0CED5 /* Pods-REFrostedStudy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-REFrostedStudy-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9415289339658C7621D821875DDFA3D4 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+REFrostedViewController.m"; path = "REFrostedViewController/UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		A0E22CC3F5234363276904FBCF10CF7A /* Pods-REFrostedStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedStudy.debug.xcconfig"; sourceTree = "<group>"; };
+		A31FFE60C2F0648AD21C5EAE8501FC36 /* libPods-REFrostedStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-REFrostedStudy.a"; path = "libPods-REFrostedStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49AE3D5BE11CCA5D32396F1D00BE6E4 /* Pods-REFrostedStudy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-REFrostedStudy-resources.sh"; sourceTree = "<group>"; };
+		C53CF1CEED875724D17E53876D9A1434 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+REFrostedViewController.m"; path = "REFrostedViewController/UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		C60F6C3B958EB0BCEF4E72CC5DE2AA33 /* Pods-REFrostedStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-REFrostedStudy.release.xcconfig"; sourceTree = "<group>"; };
+		E729FB1A6A7159D70987D825039A72FB /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+REFrostedViewController.h"; path = "REFrostedViewController/UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		EDEDD00691336C5C8D346CA8D8CFAC81 /* REFrostedViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = REFrostedViewController.xcconfig; sourceTree = "<group>"; };
+		F6F25B299F4C8F0E88339B740D8C4C39 /* Pods-REFrostedStudy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-REFrostedStudy-dummy.m"; sourceTree = "<group>"; };
+		FFB0F86717AEE0279A1FDFCB69C44996 /* RECommonFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RECommonFunctions.h; path = REFrostedViewController/RECommonFunctions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09055A6B79987EB51C682EA991DEF8AF /* Frameworks */ = {
+		5196459B378612CB076E7FCFD1ACC7B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C033003AB6E80358AA8752D1FCCB57F /* Foundation.framework in Frameworks */,
-				BFC49B2C22DF20B393BADC4869AD34E8 /* QuartzCore.framework in Frameworks */,
-				8E8C2A6374BCA2580ED7B7D21D64498B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82DCDD7CE65DFC756D09E75896DA99EA /* Frameworks */ = {
+		5607DE1A3C470A2564796D5B158C4FCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71ADF2969F66AC1585533CD344CD2C7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D4BEAEFE4233C15330A38E5975D4FDB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C4AF27909232D7C03365A56256D38CEF /* Accelerate.framework in Frameworks */,
-				EF01B40A79DD824B098232D916A2C029 /* Foundation.framework in Frameworks */,
-				F4E507CA6B3AC0C91B514A335B1FC706 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EE83FAB6A1F67A2B64285E3B5A8E6163 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C753FBDAA179312E63164415C0BBB4A9 /* Foundation.framework in Frameworks */,
+				C55490E758E1C4C5001E46C45258D693 /* Accelerate.framework in Frameworks */,
+				77B346084A7BC69C12EE2DE39BC245C2 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		1F39936942B893000A32E217C9DF0328 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				27B11BA15D729B6D2A9396A6F8EABA4C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		27B11BA15D729B6D2A9396A6F8EABA4C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				07F4160D970404A5497F94119E1EE29B /* Accelerate.framework */,
-				409E67A0E28331B704473F35A6AEF4EE /* Foundation.framework */,
-				C59C6D6D89BD1715C8D2D30D23D10859 /* QuartzCore.framework */,
-				21288ACBD59D3A0CE1911176679750E6 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		500748BDA7DA0D94CEF5EF5A7037C749 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D031A2ADDB910C9ABE935917F16E0D9 /* Pods-REFrostedStudy */,
-				8EACDD92351CEBA5C99080702F1170FD /* Pods-ViewDeckStudy */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5676EF5D11CAB3593470C75C40E62CEA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AB83CD3FBDD126045BD1E5218F38A569 /* REFrostedViewController.xcconfig */,
-				49845369D35B4091C6DD2ABFFE8AC0E6 /* REFrostedViewController-dummy.m */,
-				2691E32C49891F70D2159C72E7FCE211 /* REFrostedViewController-prefix.pch */,
+				EDEDD00691336C5C8D346CA8D8CFAC81 /* REFrostedViewController.xcconfig */,
+				6A9C78D6756BB393C149F0691BBEF146 /* REFrostedViewController-dummy.m */,
+				0097360CCC6B0A03B59BE788415DFFC4 /* REFrostedViewController-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/REFrostedViewController";
 			sourceTree = "<group>";
 		};
-		6D031A2ADDB910C9ABE935917F16E0D9 /* Pods-REFrostedStudy */ = {
+		2C04769D2D7E41CC9B88ABCB4E2F9DC9 /* Pods-REFrostedStudy */ = {
 			isa = PBXGroup;
 			children = (
-				91062AABFBF22C44B664AB252872A962 /* Pods-REFrostedStudy-acknowledgements.markdown */,
-				767E03D9BD026C16FBAFB1B57D5959B3 /* Pods-REFrostedStudy-acknowledgements.plist */,
-				9BF79C154396CD666B4BF1CFC93A3684 /* Pods-REFrostedStudy-dummy.m */,
-				38BB0EB985337FAB1B957533CF5390F0 /* Pods-REFrostedStudy-frameworks.sh */,
-				6692A39A9DB4768505774172FA96E615 /* Pods-REFrostedStudy-resources.sh */,
-				97087CC36DF2C52254BDBAC002DFAE61 /* Pods-REFrostedStudy.debug.xcconfig */,
-				B878E993EDBB1516AA543A9645E3A77C /* Pods-REFrostedStudy.release.xcconfig */,
+				23B89788F1394FA55E2A4F4B81F582F2 /* Pods-REFrostedStudy-acknowledgements.markdown */,
+				9199EE2A7F177CDC3F317E9996B0CED5 /* Pods-REFrostedStudy-acknowledgements.plist */,
+				F6F25B299F4C8F0E88339B740D8C4C39 /* Pods-REFrostedStudy-dummy.m */,
+				46A63AB45CBF925E514DA07AA610FA36 /* Pods-REFrostedStudy-frameworks.sh */,
+				A49AE3D5BE11CCA5D32396F1D00BE6E4 /* Pods-REFrostedStudy-resources.sh */,
+				A0E22CC3F5234363276904FBCF10CF7A /* Pods-REFrostedStudy.debug.xcconfig */,
+				C60F6C3B958EB0BCEF4E72CC5DE2AA33 /* Pods-REFrostedStudy.release.xcconfig */,
 			);
 			name = "Pods-REFrostedStudy";
 			path = "Target Support Files/Pods-REFrostedStudy";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B65E009D1FBDDA3489264C7DE5C777D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B65E009D1FBDDA3489264C7DE5C777D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				86ADF974528C1B463AAD7BD978C87CA2 /* Accelerate.framework */,
+				90B83707081114083C19E4339AA1CBB5 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C8EBDAD4DA254B3160900E60759609E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8680B48D90B67E6B7C9EC959A413630 /* REFrostedViewController */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				9E3C66E9D4B3A34DE830A2683E6F444B /* Pods */,
-				D212070FF383B9875E02C2E30B38FA35 /* Products */,
-				500748BDA7DA0D94CEF5EF5A7037C749 /* Targets Support Files */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7C8EBDAD4DA254B3160900E60759609E /* Pods */,
+				C0E08D0BBC36ABBCB453E46151D8EB6A /* Products */,
+				800DD5D1D57AB5FD8216A397C77E874B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8EACDD92351CEBA5C99080702F1170FD /* Pods-ViewDeckStudy */ = {
+		800DD5D1D57AB5FD8216A397C77E874B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				28996DFAD52A1F445D0F54D08EF11506 /* Pods-ViewDeckStudy-acknowledgements.markdown */,
-				E90468CC505AB3BFAF41A0CE4AD8D031 /* Pods-ViewDeckStudy-acknowledgements.plist */,
-				384B20C197296A7A056E84A2B241A506 /* Pods-ViewDeckStudy-dummy.m */,
-				0553D75C91B0FFE6B9FABBE8507697D7 /* Pods-ViewDeckStudy-frameworks.sh */,
-				A1F51797970827B7E018D7177551272D /* Pods-ViewDeckStudy-resources.sh */,
-				C94BCC32A83E119315A8A15F11704C0E /* Pods-ViewDeckStudy.debug.xcconfig */,
-				EF65C3DF7AE0F37C5A82D719DB676552 /* Pods-ViewDeckStudy.release.xcconfig */,
+				2C04769D2D7E41CC9B88ABCB4E2F9DC9 /* Pods-REFrostedStudy */,
 			);
-			name = "Pods-ViewDeckStudy";
-			path = "Target Support Files/Pods-ViewDeckStudy";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9E3C66E9D4B3A34DE830A2683E6F444B /* Pods */ = {
+		C0E08D0BBC36ABBCB453E46151D8EB6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCAC63F999B69AC68569A944F8F95F6A /* REFrostedViewController */,
-				B44902B7F4A229C0A4849A9AFD2FEB3B /* ViewDeck */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B44902B7F4A229C0A4849A9AFD2FEB3B /* ViewDeck */ = {
-			isa = PBXGroup;
-			children = (
-				B0C16A7F3A5FBA25E2CE6DE726D8CB96 /* IIDelegateProxy.h */,
-				B3C756BB72DA3B5A4DC3DFF8A28B875B /* IIDelegateProxy.m */,
-				FD07EFD34C20296CF8CD96F7216F9A64 /* IIEnvironment.h */,
-				30E1BD1E7C5DE37D338AAFB6C28E81DF /* IIEnvironment+Private.h */,
-				A754ED568F881923D103924C512359C1 /* IIViewDeckController.h */,
-				0A63738737621CFF385C8AD3E8D424B1 /* IIViewDeckController.mm */,
-				D73A14FAFF8BF3C9EE5EAB7159AB2EB2 /* IIViewDeckController+Private.h */,
-				8171C9DC79AD3F80527FE064FC394C28 /* IIViewDeckDefaultTransitionAnimator.h */,
-				AD1A5F8C6A558EF2469402FFBEA75D30 /* IIViewDeckDefaultTransitionAnimator.mm */,
-				FA4D0832645E4DDA23EDBA7F78654D8A /* IIViewDeckLayoutSupport.h */,
-				CE6658F39EAB10C522F5A585331C12C8 /* IIViewDeckLayoutSupport.m */,
-				C89B36C8B7082A680A4180C8CA11FA55 /* IIViewDeckTransition.h */,
-				452903ACA7D216A79612D88543857845 /* IIViewDeckTransition.mm */,
-				2DFC816FFB09B00A0A6A5AE62F8E3480 /* IIViewDeckTransitioning.h */,
-				452EF3FF0E145A57AA754F382C393741 /* UIViewController+IIViewDeckAdditions.h */,
-				EC1EE1C7E6549C82D5E0A0414E235E7A /* UIViewController+IIViewDeckAdditions.m */,
-				2E04C5C608CE5B4A96AAC116920EDE05 /* UIViewController+Private.h */,
-				FE0A922C1F51F3584ACD6BA7F63A73B0 /* UIViewController+Private.m */,
-				ACEBD2E682A7E588797DEB9FC91168DD /* ViewDeck.h */,
-				C14472EB9858BAE6A3037795BDD150B1 /* Support Files */,
-			);
-			path = ViewDeck;
-			sourceTree = "<group>";
-		};
-		C14472EB9858BAE6A3037795BDD150B1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B5DCC2718A5BA654697FCEC26A9FEC54 /* ViewDeck.xcconfig */,
-				CB261B1388FD11CCEB36991DA5A4C386 /* ViewDeck-dummy.m */,
-				687C10EAE0AF724955313AEF5A64E874 /* ViewDeck-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ViewDeck";
-			sourceTree = "<group>";
-		};
-		D212070FF383B9875E02C2E30B38FA35 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0327E7FFB952EADDA7DFF147C5C05C02 /* libPods-REFrostedStudy.a */,
-				5FE8E0461FF8103BAAD05289C3E62EFB /* libPods-ViewDeckStudy.a */,
-				B7C872A40B4151344B9F0606D31208B0 /* libREFrostedViewController.a */,
-				0B13F63A29FBBF31B37F3E5D3FB6001F /* libViewDeck.a */,
+				A31FFE60C2F0648AD21C5EAE8501FC36 /* libPods-REFrostedStudy.a */,
+				5E1A19CFB3EB21DD51A173A14115E8D6 /* libREFrostedViewController.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCAC63F999B69AC68569A944F8F95F6A /* REFrostedViewController */ = {
+		F8680B48D90B67E6B7C9EC959A413630 /* REFrostedViewController */ = {
 			isa = PBXGroup;
 			children = (
-				64C31A5A0DBC5A167EE3E6B202FCA2AE /* RECommonFunctions.h */,
-				AAEF5BE3BD2562ED0E91348663BF5D46 /* RECommonFunctions.m */,
-				3C4F8F97188388F357F0D6D664726046 /* REFrostedContainerViewController.h */,
-				269B63DB5322900662E4010AE8E77B81 /* REFrostedContainerViewController.m */,
-				D6A3E300BD0091B5D04A14814F786621 /* REFrostedViewController.h */,
-				2B81846DA6DD517E61CCDA8E9BD489F2 /* REFrostedViewController.m */,
-				2BF88DF802544E853E2CD46C4338F507 /* UIImage+REFrostedViewController.h */,
-				2E0DB97FEEB96F729C21E9F0E549EF3D /* UIImage+REFrostedViewController.m */,
-				12FEDED657AE0BCEBEF89CE6E6777E15 /* UIView+REFrostedViewController.h */,
-				0F4ED0BF80F9871D195AACCEFDF9F11E /* UIView+REFrostedViewController.m */,
-				34D5A13F660E33CFB8E081E022F51A17 /* UIViewController+REFrostedViewController.h */,
-				DA7CAFF786644FA7A438AA1932798689 /* UIViewController+REFrostedViewController.m */,
-				5676EF5D11CAB3593470C75C40E62CEA /* Support Files */,
+				FFB0F86717AEE0279A1FDFCB69C44996 /* RECommonFunctions.h */,
+				2DF6B6E343F0635AFDD2AE9096E80F04 /* RECommonFunctions.m */,
+				3E107E72950BDE96BDB2F9AE6BC297A8 /* REFrostedContainerViewController.h */,
+				33D1CFC165A6B8B96AF38070383F77C1 /* REFrostedContainerViewController.m */,
+				5EC7E357E99B0E24B461873DD4E07D20 /* REFrostedViewController.h */,
+				3FEA12C88EB70C2B1855AB53C109A090 /* REFrostedViewController.m */,
+				6C62707348E58E01B1F6CAAF5FA03EC8 /* UIImage+REFrostedViewController.h */,
+				C53CF1CEED875724D17E53876D9A1434 /* UIImage+REFrostedViewController.m */,
+				E729FB1A6A7159D70987D825039A72FB /* UIView+REFrostedViewController.h */,
+				9415289339658C7621D821875DDFA3D4 /* UIView+REFrostedViewController.m */,
+				1D7C92941967DC198CEC4742B586271D /* UIViewController+REFrostedViewController.h */,
+				48718592CE836F5294C9BBB72EB55B4E /* UIViewController+REFrostedViewController.m */,
+				1F39936942B893000A32E217C9DF0328 /* Support Files */,
 			);
+			name = REFrostedViewController;
 			path = REFrostedViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6A952B19B704A8580EF5031044830B3C /* Headers */ = {
+		14FC35551056CB6C99F751760F72B5A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE9E0BA0F34AA4C72E6DCAF858472B0 /* IIDelegateProxy.h in Headers */,
-				CEB12DCCC4F0711A9C53FB958A543F63 /* IIEnvironment+Private.h in Headers */,
-				DEF755A9FAB6033760CBB03DF80AC629 /* IIEnvironment.h in Headers */,
-				A996DEE5A58B9BA18B7E6BA274DF1C3E /* IIViewDeckController+Private.h in Headers */,
-				6BEC6E273A4E6F7E3ADF314DFD633DDF /* IIViewDeckController.h in Headers */,
-				D012F8D379E93DB7EA8EFDB67100ABA0 /* IIViewDeckDefaultTransitionAnimator.h in Headers */,
-				B7695120EDF045EAC878A94A5BA71815 /* IIViewDeckLayoutSupport.h in Headers */,
-				E6BF46A191056106270009CFE0210A8E /* IIViewDeckTransition.h in Headers */,
-				44C71E04CE7264123EDAB9EA13CE754F /* IIViewDeckTransitioning.h in Headers */,
-				7EAC717BB0A43DE7E2CB2E4CEA3C8855 /* UIViewController+IIViewDeckAdditions.h in Headers */,
-				B46882F8A4067E80AC9A2A921AF06497 /* UIViewController+Private.h in Headers */,
-				863D3AB41772552D0E9E005C3B08C8D8 /* ViewDeck.h in Headers */,
+				A5FDC338E61C8D1BE500A8BD46F80397 /* RECommonFunctions.h in Headers */,
+				9838F8526BCB7A3B0697FCAE34A87672 /* REFrostedContainerViewController.h in Headers */,
+				8CCE4A42388E458C553DF003F24A9880 /* REFrostedViewController.h in Headers */,
+				79C60E0D6D15AA698878D9A1E5B2ED51 /* UIImage+REFrostedViewController.h in Headers */,
+				8FC8F67D368C750382B3BE8DC5BA53C3 /* UIView+REFrostedViewController.h in Headers */,
+				99217C7C269B8358AFB1B033013F8FC1 /* UIViewController+REFrostedViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0E493970D9FC5B8A4C74F8C4F7C8750 /* Headers */ = {
+		68FA252EA8903F03038F7760C1B7CC28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0CCDC7275B66E465AFD37A862F0507A /* RECommonFunctions.h in Headers */,
-				5F56465E9A0060A88E0D1B6C97509FD5 /* REFrostedContainerViewController.h in Headers */,
-				D7F8D025722D3BE36660B69C54C98D67 /* REFrostedViewController.h in Headers */,
-				63E5BBA2EEC196A9E1A926FF55313437 /* UIImage+REFrostedViewController.h in Headers */,
-				B02B76C921BBE844FEE49C7D7AA86245 /* UIView+REFrostedViewController.h in Headers */,
-				7317FC8F34DE5780A423454560BE2E94 /* UIViewController+REFrostedViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		16044F5DB12680B73B21E47EBCA4D2AC /* REFrostedViewController */ = {
+		32608ED2D56E94FFC8E3A4CBB8B105CD /* REFrostedViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DBB2C899DC5BE11D1FE53851AD4C402 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
+			buildConfigurationList = 3E8302545483EF756698CA5F6D133B7C /* Build configuration list for PBXNativeTarget "REFrostedViewController" */;
 			buildPhases = (
-				A490FF9CA02B7B2701D585C1B4760806 /* Sources */,
-				8D4BEAEFE4233C15330A38E5975D4FDB /* Frameworks */,
-				D0E493970D9FC5B8A4C74F8C4F7C8750 /* Headers */,
+				14FC35551056CB6C99F751760F72B5A3 /* Headers */,
+				32D42A4BCBBD978796F41EA26A7AB6FE /* Sources */,
+				5607DE1A3C470A2564796D5B158C4FCC /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,58 +225,25 @@
 			);
 			name = REFrostedViewController;
 			productName = REFrostedViewController;
-			productReference = B7C872A40B4151344B9F0606D31208B0 /* libREFrostedViewController.a */;
+			productReference = 5E1A19CFB3EB21DD51A173A14115E8D6 /* libREFrostedViewController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		183E441070E76A8CC26EE7E60E54E717 /* ViewDeck */ = {
+		57416EB036D35AEE31BC93F50314925B /* Pods-REFrostedStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C267690C4A578ACCFDDD53D30AAED22 /* Build configuration list for PBXNativeTarget "ViewDeck" */;
+			buildConfigurationList = 80CDC6FB0DDDBD8CF2BB564D53FAF71B /* Build configuration list for PBXNativeTarget "Pods-REFrostedStudy" */;
 			buildPhases = (
-				4D07E7F6DF89348F87DEE20E7802ABA5 /* Sources */,
-				09055A6B79987EB51C682EA991DEF8AF /* Frameworks */,
-				6A952B19B704A8580EF5031044830B3C /* Headers */,
+				68FA252EA8903F03038F7760C1B7CC28 /* Headers */,
+				930506AD3C9324453D06E8F45269E6AF /* Sources */,
+				5196459B378612CB076E7FCFD1ACC7B8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = ViewDeck;
-			productName = ViewDeck;
-			productReference = 0B13F63A29FBBF31B37F3E5D3FB6001F /* libViewDeck.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		3BA45534E227A4197D3426C4E1601009 /* Pods-ViewDeckStudy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD962351AFA4805A2FD9E1522132C139 /* Build configuration list for PBXNativeTarget "Pods-ViewDeckStudy" */;
-			buildPhases = (
-				1E464007DACCE217433308DB6EE5DD73 /* Sources */,
-				EE83FAB6A1F67A2B64285E3B5A8E6163 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B41411969530ABD2598DE39CA7237F52 /* PBXTargetDependency */,
-			);
-			name = "Pods-ViewDeckStudy";
-			productName = "Pods-ViewDeckStudy";
-			productReference = 5FE8E0461FF8103BAAD05289C3E62EFB /* libPods-ViewDeckStudy.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D9BFBB1A94A7186D625D92870265ADDC /* Pods-REFrostedStudy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AB32E272AC3AC7172A4939E2AB206472 /* Build configuration list for PBXNativeTarget "Pods-REFrostedStudy" */;
-			buildPhases = (
-				6A14AFB5E308A89177A49742F381C5B6 /* Sources */,
-				82DCDD7CE65DFC756D09E75896DA99EA /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				97F888CD1ABAB8BC62C75DEBFAD99EDB /* PBXTargetDependency */,
+				49854BB71928E22F9C8214648B08F143 /* PBXTargetDependency */,
 			);
 			name = "Pods-REFrostedStudy";
 			productName = "Pods-REFrostedStudy";
-			productReference = 0327E7FFB952EADDA7DFF147C5C05C02 /* libPods-REFrostedStudy.a */;
+			productReference = A31FFE60C2F0648AD21C5EAE8501FC36 /* libPods-REFrostedStudy.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -442,8 +252,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -453,127 +263,80 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D212070FF383B9875E02C2E30B38FA35 /* Products */;
+			productRefGroup = C0E08D0BBC36ABBCB453E46151D8EB6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9BFBB1A94A7186D625D92870265ADDC /* Pods-REFrostedStudy */,
-				3BA45534E227A4197D3426C4E1601009 /* Pods-ViewDeckStudy */,
-				16044F5DB12680B73B21E47EBCA4D2AC /* REFrostedViewController */,
-				183E441070E76A8CC26EE7E60E54E717 /* ViewDeck */,
+				57416EB036D35AEE31BC93F50314925B /* Pods-REFrostedStudy */,
+				32608ED2D56E94FFC8E3A4CBB8B105CD /* REFrostedViewController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E464007DACCE217433308DB6EE5DD73 /* Sources */ = {
+		32D42A4BCBBD978796F41EA26A7AB6FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4B1FE1B2DD9E9DBC98BF58FF1359CA /* Pods-ViewDeckStudy-dummy.m in Sources */,
+				0F79C5D95600FE70B3DD5F5194A9D276 /* RECommonFunctions.m in Sources */,
+				1FC0BB5F4DA69E577B904190C0280992 /* REFrostedContainerViewController.m in Sources */,
+				F4117D08D53ACC57E673290544F72F53 /* REFrostedViewController-dummy.m in Sources */,
+				A5B3DC1023BAA91A38DC5D919CCF598B /* REFrostedViewController.m in Sources */,
+				9BC00BF2615C3F7F0D369303F3E0FAE2 /* UIImage+REFrostedViewController.m in Sources */,
+				3E242ECEE0DDB5C5533AE775A94E4DF1 /* UIView+REFrostedViewController.m in Sources */,
+				2B02DA5FC2655BC01E79789EE86758A3 /* UIViewController+REFrostedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D07E7F6DF89348F87DEE20E7802ABA5 /* Sources */ = {
+		930506AD3C9324453D06E8F45269E6AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70425171CCCDD60FED6DA248B1A89D8E /* IIDelegateProxy.m in Sources */,
-				51D52E14D581DCA33FED32869647D68F /* IIViewDeckController.mm in Sources */,
-				4BF0AD1167E6102E1580DA3247AD4B9B /* IIViewDeckDefaultTransitionAnimator.mm in Sources */,
-				D262194C78500C6A181B1D1AAD0E20D7 /* IIViewDeckLayoutSupport.m in Sources */,
-				3D58740D8D1E1B35EAF55961C50E9AD7 /* IIViewDeckTransition.mm in Sources */,
-				B928AF771A11603231D6B5AAC8CA2293 /* UIViewController+IIViewDeckAdditions.m in Sources */,
-				3D584E72EDE6431FBF413A198E93D00B /* UIViewController+Private.m in Sources */,
-				ABB07666BA52363074E72A7C5ACF10C1 /* ViewDeck-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A14AFB5E308A89177A49742F381C5B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52C48A6E7992705A79519B10332A3B5B /* Pods-REFrostedStudy-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A490FF9CA02B7B2701D585C1B4760806 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6866ED73B1FFF44DB90CE12A8F5B3A5F /* RECommonFunctions.m in Sources */,
-				CE703312B93CFD46FC961FA4E98C13EC /* REFrostedContainerViewController.m in Sources */,
-				1F2DF53C5ACAA29171A86E5D84D38698 /* REFrostedViewController-dummy.m in Sources */,
-				1D77B238E9E767CFF9D99634D1DE3562 /* REFrostedViewController.m in Sources */,
-				07279F9A69F47AB4AF531AF0E47E7D81 /* UIImage+REFrostedViewController.m in Sources */,
-				2BF9FC82744CC2ED63EAAAFD8327DF25 /* UIView+REFrostedViewController.m in Sources */,
-				C04055B021A904D17AF7D9BAF3EA42BC /* UIViewController+REFrostedViewController.m in Sources */,
+				BC43E3CAB62442A1D0B638F443D83FF8 /* Pods-REFrostedStudy-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		97F888CD1ABAB8BC62C75DEBFAD99EDB /* PBXTargetDependency */ = {
+		49854BB71928E22F9C8214648B08F143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = REFrostedViewController;
-			target = 16044F5DB12680B73B21E47EBCA4D2AC /* REFrostedViewController */;
-			targetProxy = 43C00210700B99BE72BD96744AA79393 /* PBXContainerItemProxy */;
-		};
-		B41411969530ABD2598DE39CA7237F52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ViewDeck;
-			target = 183E441070E76A8CC26EE7E60E54E717 /* ViewDeck */;
-			targetProxy = 51C61A25F8C875A3D7692E26A63B7B07 /* PBXContainerItemProxy */;
+			target = 32608ED2D56E94FFC8E3A4CBB8B105CD /* REFrostedViewController */;
+			targetProxy = AE2E23FAB0B6265318A630AB59B6A445 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21452F2158B56A10D6CA62B2C7AD0F1F /* Debug */ = {
+		44A62C569A5935EB897B6825EE3F5F19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C94BCC32A83E119315A8A15F11704C0E /* Pods-ViewDeckStudy.debug.xcconfig */;
+			baseConfigurationReference = EDEDD00691336C5C8D346CA8D8CFAC81 /* REFrostedViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2213B3FF31BBA3F64AD5F9694F1B749C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5DCC2718A5BA654697FCEC26A9FEC54 /* ViewDeck.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewDeck/ViewDeck-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = REFrostedViewController;
+				PRODUCT_NAME = REFrostedViewController;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		5B189A1736840D8052A1B0D0BC08E72A /* Release */ = {
+		4CE5BFCF8D0D83F465C75DE35463E5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF65C3DF7AE0F37C5A82D719DB676552 /* Pods-ViewDeckStudy.release.xcconfig */;
+			baseConfigurationReference = C60F6C3B958EB0BCEF4E72CC5DE2AA33 /* Pods-REFrostedStudy.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -591,29 +354,7 @@
 			};
 			name = Release;
 		};
-		A2CBF9F01B52C4CD7B33A504F77D2ACE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5DCC2718A5BA654697FCEC26A9FEC54 /* ViewDeck.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ViewDeck/ViewDeck-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -623,10 +364,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -634,6 +377,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -642,6 +386,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -661,89 +406,31 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B7D8DA886F67F58159123C4EF2421CDB /* Release */ = {
+		9ECF9D90B4CC1A8220A48595CB7374D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB83CD3FBDD126045BD1E5218F38A569 /* REFrostedViewController.xcconfig */;
+			baseConfigurationReference = EDEDD00691336C5C8D346CA8D8CFAC81 /* REFrostedViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C71BB82B9511F4F2F604F600AD7F5190 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B878E993EDBB1516AA543A9645E3A77C /* Pods-REFrostedStudy.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C938155611FE2F128C197BDCC16737D9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97087CC36DF2C52254BDBAC002DFAE61 /* Pods-REFrostedStudy.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D1DBE013650BF715B55B038152498A88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB83CD3FBDD126045BD1E5218F38A569 /* REFrostedViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/REFrostedViewController/REFrostedViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = REFrostedViewController;
+				PRODUCT_NAME = REFrostedViewController;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -752,7 +439,7 @@
 			};
 			name = Debug;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -762,10 +449,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -773,6 +462,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -781,6 +471,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -802,13 +493,36 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D776F335E8C1EB9E0FFF704CDEC7E583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E22CC3F5234363276904FBCF10CF7A /* Pods-REFrostedStudy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -818,44 +532,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C267690C4A578ACCFDDD53D30AAED22 /* Build configuration list for PBXNativeTarget "ViewDeck" */ = {
+		3E8302545483EF756698CA5F6D133B7C /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2213B3FF31BBA3F64AD5F9694F1B749C /* Debug */,
-				A2CBF9F01B52C4CD7B33A504F77D2ACE /* Release */,
+				9ECF9D90B4CC1A8220A48595CB7374D0 /* Debug */,
+				44A62C569A5935EB897B6825EE3F5F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DBB2C899DC5BE11D1FE53851AD4C402 /* Build configuration list for PBXNativeTarget "REFrostedViewController" */ = {
+		80CDC6FB0DDDBD8CF2BB564D53FAF71B /* Build configuration list for PBXNativeTarget "Pods-REFrostedStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D1DBE013650BF715B55B038152498A88 /* Debug */,
-				B7D8DA886F67F58159123C4EF2421CDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AB32E272AC3AC7172A4939E2AB206472 /* Build configuration list for PBXNativeTarget "Pods-REFrostedStudy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C938155611FE2F128C197BDCC16737D9 /* Debug */,
-				C71BB82B9511F4F2F604F600AD7F5190 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD962351AFA4805A2FD9E1522132C139 /* Build configuration list for PBXNativeTarget "Pods-ViewDeckStudy" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				21452F2158B56A10D6CA62B2C7AD0F1F /* Debug */,
-				5B189A1736840D8052A1B0D0BC08E72A /* Release */,
+				D776F335E8C1EB9E0FFF704CDEC7E583 /* Debug */,
+				4CE5BFCF8D0D83F465C75DE35463E5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -23,17 +23,8 @@
     // Do any additional setup after loading the view from its nib.
     self.preferredContentSize = CGSizeMake(ScreenWidth/3*2, ScreenHeight-600);
     self.view.backgroundColor=[UIColor whiteColor];
-    
-}
--(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:animated];
 }
 
--(void)viewWillDisappear:(BOOL)animated{
-    [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:animated];
-}
 - (IBAction)goNextView:(UIButton *)sender {
     /**
      关闭侧边栏

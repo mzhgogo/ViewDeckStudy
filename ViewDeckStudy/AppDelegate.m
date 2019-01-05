@@ -37,13 +37,14 @@
     [tarBarCtr setViewControllers:[NSArray arrayWithObjects:centNvi,centSecNvi, nil]];
     _rootTabbarCtrV=tarBarCtr;
     //左边view 采用xib多种形式研究
-    LeftSideViewController *leftView =[[LeftSideViewController alloc]initWithNibName:@"LeftSideViewController" bundle:[NSBundle mainBundle]];
-    UINavigationController *leftNvi=[[UINavigationController alloc]initWithRootViewController:leftView];
+    LeftSideViewController *leftVC =[[LeftSideViewController alloc]initWithNibName:@"LeftSideViewController" bundle:[NSBundle mainBundle]];
     //右边
     RightSideViewController *rightView=[[RightSideViewController alloc]init];
     UINavigationController *rightNvi=[[UINavigationController alloc]initWithRootViewController:rightView];
     
-    IIViewDeckController *viewDeckController =[[IIViewDeckController alloc]initWithCenterViewController:_rootTabbarCtrV leftViewController:leftNvi rightViewController:rightNvi];
+    IIViewDeckController *viewDeckController =[[IIViewDeckController alloc]initWithCenterViewController:_rootTabbarCtrV leftViewController:leftVC rightViewController:rightNvi];
+    //仅左侧边栏
+//      IIViewDeckController *viewDeckController =[[IIViewDeckController alloc]initWithCenterViewController:_rootTabbarCtrV leftViewController:leftVC];
     viewDeckController.delegate=self;
     self.window.rootViewController=viewDeckController;
     
@@ -62,6 +63,7 @@
  @return `YES` if the View Deck Controller should open the side in question, `NO` otherwise.
  */
 - (BOOL)viewDeckController:(IIViewDeckController *)viewDeckController willOpenSide:(IIViewDeckSide)side{
+    NSLog(@"willOpenSide %@  %@",@(side),viewDeckController.leftViewController);
     return YES;
 }
 

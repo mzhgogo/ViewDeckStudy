@@ -71,6 +71,7 @@ NSString* NSStringFromIIViewDeckSide(IIViewDeckSide side) {
 @property (nonatomic) UIScreenEdgePanGestureRecognizer *leftEdgeGestureRecognizer;
 @property (nonatomic) UIScreenEdgePanGestureRecognizer *rightEdgeGestureRecognizer;
 @property (nonatomic) UITapGestureRecognizer *decorationTapGestureRecognizer;
+@property (nonatomic) UIPanGestureRecognizer *dismissGestureRecognizer;
 
 @property (nonatomic) UIView *currentDecorationView;
 
@@ -151,6 +152,7 @@ II_DELEGATE_PROXY(IIViewDeckControllerDelegate);
     let view = self.view;
     [view addGestureRecognizer:self.leftEdgeGestureRecognizer];
     [view addGestureRecognizer:self.rightEdgeGestureRecognizer];
+    [view addGestureRecognizer:self.dismissGestureRecognizer];
 
     [self ii_exchangeViewFromController:nil toController:self.centerViewController inContainerView:self.view];
 }
@@ -227,7 +229,7 @@ II_DELEGATE_PROXY(IIViewDeckControllerDelegate);
 
 #pragma mark - Managing Transitions
 
-static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide toSide) {
+__unused static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide toSide) {
     return (fromSide == toSide) || (IIViewDeckSideIsValid(fromSide) && !IIViewDeckSideIsValid(toSide)) || (!IIViewDeckSideIsValid(fromSide) && IIViewDeckSideIsValid(toSide));
 }
 
@@ -236,7 +238,11 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
 }
 
 - (void)openSide:(IIViewDeckSide)side animated:(BOOL)animated {
-    [self openSide:side animated:animated notify:NO completion:NULL];
+    [self openSide:side animated:animated completion:NULL];
+}
+
+- (void)openSide:(IIViewDeckSide)side animated:(BOOL)animated completion:(nullable void(^)(BOOL cancelled))completion {
+    [self openSide:side animated:animated notify:NO completion:completion];
 }
 
 - (void)openSide:(IIViewDeckSide)side animated:(BOOL)animated notify:(BOOL)notify completion:(nullable void(^)(BOOL cancelled))completion {
@@ -319,7 +325,11 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
 }
 
 - (void)closeSide:(BOOL)animated {
-    [self closeSide:animated notify:NO completion:NULL];
+    [self closeSide:animated completion:NULL];
+}
+
+- (void)closeSide:(BOOL)animated completion:(nullable void(^)(BOOL cancelled))completion {
+    [self openSide:IIViewDeckSideNone animated:animated notify:NO completion:completion];
 }
 
 - (void)closeSide:(BOOL)animated notify:(BOOL)notify completion:(nullable void(^)(BOOL cancelled))completion {
@@ -358,6 +368,16 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
     return _rightEdgeGestureRecognizer;
 }
 
+- (UIPanGestureRecognizer *)dismissGestureRecognizer {
+    if (_dismissGestureRecognizer) {
+        return _dismissGestureRecognizer;
+    }
+    
+    _dismissGestureRecognizer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(interactiveTransitionRecognized:)];
+    _dismissGestureRecognizer.delegate = self;
+    return _dismissGestureRecognizer;
+}
+
 - (UITapGestureRecognizer *)decorationTapGestureRecognizer {
     if (_decorationTapGestureRecognizer) {
         return _decorationTapGestureRecognizer;
@@ -379,6 +399,8 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
                 side = IIViewDeckSideLeft;
             } else if (recognizer == self.rightEdgeGestureRecognizer) {
                 side = IIViewDeckSideRight;
+            } else if (recognizer == self.dismissGestureRecognizer) {
+                side = IIViewDeckSideNone;
             } else {
                 NSAssert(NO, @"A gesture recognizer (%@) triggered an interactive view transition that is not controlled by this istance of %@, (%@).", recognizer, NSStringFromClass(self.class), self);
                 return;
@@ -420,6 +442,7 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
     BOOL panningEnabled = self.isPanningEnabled;
     self.leftEdgeGestureRecognizer.enabled = (panningEnabled && self.leftViewController && self.openSide == IIViewDeckSideNone);
     self.rightEdgeGestureRecognizer.enabled = (panningEnabled && self.rightViewController && self.openSide == IIViewDeckSideNone);
+    self.dismissGestureRecognizer.enabled = (panningEnabled && self.openSide != IIViewDeckSideNone);
     self.decorationTapGestureRecognizer.enabled = (self.openSide != IIViewDeckSideNone);
 }
 
@@ -436,6 +459,13 @@ static inline BOOL IIIsAllowedTransition(IIViewDeckSide fromSide, IIViewDeckSide
         side = IIViewDeckSideRight;
     }
     return [self.delegate viewDeckController:self shouldStartPanningToSide:side];
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
+    if ([otherGestureRecognizer isKindOfClass:NSClassFromString(@"_UISwipeActionPanGestureRecognizer")]) {
+        return YES;
+    }
+    return NO;
 }
 
 
